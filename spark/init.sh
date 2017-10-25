@@ -139,7 +139,9 @@ else
         return -1
       fi
   esac
-
+  
+  mkdir -p /root/espark/
+  mkdir -p /root/thesis/graphs/
   echo "Unpacking Spark"
   tar xvzf spark-*.tgz > /tmp/spark-ec2_spark.log
   rm spark-*.tgz
