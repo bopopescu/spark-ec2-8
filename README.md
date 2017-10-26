@@ -1,5 +1,7 @@
 # EC2 Cluster Setup for Apache Spark
 
+This is a slightly modified clone of [AMP spark-ec2](https://github.com/amplab/spark-ec2/tree/branch-2.0)
+
 `spark-ec2` allows you
 to launch, manage and shut down
 [Apache Spark](http://spark.apache.org/docs/latest/ec2-scripts.html) [1] clusters
