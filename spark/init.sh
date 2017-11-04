@@ -140,6 +140,7 @@ else
       fi
   esac
   
+  mkdir -p /tmp/spark-events/
   mkdir -p /root/espark/
   mkdir -p /root/thesis/graphs/
   echo "Unpacking Spark"
