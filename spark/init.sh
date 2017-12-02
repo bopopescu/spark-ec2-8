@@ -127,14 +127,14 @@ else
     *)
       if [[ "$HADOOP_MAJOR_VERSION" == "1" ]]; then
 	echo "I reach here!!!!!!!!!!!!!!!!!!"
-        wget https://d3kbcqa49mib13.cloudfront.net/spark-2.2.0-bin-hadoop2.6.tgz
+        wget https://d3kbcqa49mib13.cloudfront.net/spark-2.1.0-bin-hadoop2.4.tgz
       elif [[ "$HADOOP_MAJOR_VERSION" == "2" ]]; then
-       wget https://d3kbcqa49mib13.cloudfront.net/spark-2.2.0-bin-hadoop2.6.tgz
+       wget https://d3kbcqa49mib13.cloudfront.net/spark-2.1.0-bin-hadoop2.4.tgz
       else
-        wget https://d3kbcqa49mib13.cloudfront.net/spark-2.2.0-bin-hadoop2.6.tgz
+        wget https://d3kbcqa49mib13.cloudfront.net/spark-2.1.0-bin-hadoop2.4.tgz
       fi
       if [ $? != 0 ]; then
-	wget https://d3kbcqa49mib13.cloudfront.net/spark-2.2.0-bin-hadoop2.6.tgz
+	wget https://d3kbcqa49mib13.cloudfront.net/spark-2.1.0-bin-hadoop2.4.tgz
         echo "ERROR: Unknown Spark version"
         return -1
       fi
